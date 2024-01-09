@@ -10,7 +10,7 @@ body {
   height: 100vh;
   width: 100%;
   display: flex;
-  background-image: url(/img/nature_beach.jpeg);
+  background-image: url(./img/nature_beach.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
