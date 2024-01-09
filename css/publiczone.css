@@ -20,6 +20,7 @@ body {
   flex: 1;
 }
 .top-list {
+  color: #ede4e4;
   display: inline-flex;
   margin: 10px 20px;
   text-decoration-line: none;
