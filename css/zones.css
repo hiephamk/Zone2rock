@@ -31,6 +31,9 @@ body {
   height: 2000px;
   display: flex;
 }
+.image {
+  width: 300px;
+}
 .left-side {
   background-color: #8dc7de;
   flex: 1;
@@ -53,6 +56,7 @@ body {
   background-color: #ede4e4;
   flex: 3;
   list-style: none;
+  text-align: center;
 }
 .left-side__contents {
   margin: 10px 10px;

@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   /* position: relative; */
 }
+
 .nav-bar {
   font-size: 20px;
   color: #ede4e4;
@@ -28,7 +29,7 @@ body {
 }
 .middle-page {
   width: 100%;
-  height: 5000px;
+  height: 1000px;
   display: flex;
 }
 .left-side {
@@ -55,13 +56,17 @@ body {
   list-style: none;
   text-align: center;
 }
-.left-side__contents {
+.image {
+  height: 400px;
+  width: 400px;
+}
+.edge-content {
   margin-left: 10px;
   text-decoration-line: none;
   /* flex: 0.1; */
 }
-.right-side__contents {
-  margin-right: 10px;
+.contents {
+  margin: 10px 10px 10px 10px;
   text-decoration-line: none;
   /* flex: 0.1; */
 }
@@ -74,7 +79,7 @@ body {
   background-color: #71b07d;
 }
 .end-page {
-  height: 300px;
+  height: 100px;
   width: auto;
   background-color: #4b7eee;
   /* flex: 3; */
@@ -123,4 +128,10 @@ body {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .button-public:hover .button-down {
   background-color: #3e8e41;
+}
+button {
+  background: transparent;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
 }
