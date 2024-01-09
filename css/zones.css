@@ -34,6 +34,21 @@ body {
 .image {
   width: 300px;
 }
+.end-page {
+  display: flex;
+  justify-content: space-between;
+}
+.end-contents {
+  margin: 10px 10px 0 10px;
+}
+.logo {
+  margin: 10px 0 10px 10px;
+}
+.middle-end {
+  margin: 10px 0 10px 0;
+  font-size: 24px;
+  color: #ede4e4;
+}
 .left-side {
   background-color: #8dc7de;
   flex: 1;
